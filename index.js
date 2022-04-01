@@ -1,4 +1,4 @@
-//const keepAlive = require('./server.js');
+const keepAlive = require('./server.js');
 
 require('dotenv').config();
 
@@ -6,6 +6,7 @@ const aoijs = require('aoi.js');
 const config = require('./config.js'); 
 const bot = new aoijs.Bot(config.Bot);
 const fs = require('fs');
+
 
 const voice = new aoijs.Voice(bot, {
   soundcloud: {
@@ -17,6 +18,8 @@ const voice = new aoijs.Voice(bot, {
   }, 
 });
 
+
+
 require('./handler/status')(bot) 
 require('./handler/variables')(bot) 
 require('./handler/callbacks')(bot) 
@@ -26,7 +29,7 @@ const loader = new aoijs.LoadCommands(bot)
 loader.load(bot.cmd, "./commands/")
 
 
-/
+
 loader.setColors({
   walking: ["blink", "dim", "fgWhite"],
   failedWalking: {
