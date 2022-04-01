@@ -1,5 +1,7 @@
 //const keepAlive = require('./server.js');
 
+require('dotenv').config();
+
 const aoijs = require('aoi.js'); 
 const config = require('./config.js'); 
 const bot = new aoijs.Bot(config.Bot);
