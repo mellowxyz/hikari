@@ -1,4 +1,4 @@
-const keepAlive = require('./server.js');
+//const keepAlive = require('./server.js');
 
 const aoijs = require('aoi.js'); 
 const config = require('./config.js'); 
