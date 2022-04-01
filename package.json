@@ -1,12 +1,7 @@
 {
   "dependencies": {
-    "@akarui/aoi.music": "1.0.3",
     "aoi.js": "5.1.1",
-    "dbdjs.mongo": "^1.0.1",
-    "express": "^4.17.2",
-    "ffmpeg-static": "^4.4.1",
-    "mongoose": "^5.13.13",
-    "opusscript": "^0.0.8"
+    "express": "^4.17.2"
   },
   "devDependencies": {
     "node": "^17.5.0"
@@ -14,7 +9,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "name": "tom-from-fbi",
+  "name": "hikari",
   "version": "1.0.0",
   "main": "index.js",
   "keywords": [],
