@@ -1,0 +1,36 @@
+/*
+module.exports = ({
+code: ` 
+$channelSendMessage[842239194037354506;<@756903747954671616>
+{delete:500ms}]
+
+$channelSendMessage[843534604945850459;<@756903747954671616>
+{delete:500ms}]
+
+$channelSendMessage[928027789809057822;<@756903747954671616>
+{delete:500ms}]
+
+$channelSendMessage[845239500774440981;<@756903747954671616>
+{delete:500ms}]
+
+$channelSendMessage[844142789491032114;<@756903747954671616>
+{delete:500ms}]
+
+$channelSendMessage[842385764096016474;<@756903747954671616>
+{delete:500ms}]
+
+$channelSendMessage[842385634554544128;<@756903747954671616>
+{delete:500ms}]
+
+$channelSendMessage[942471983558451292;<@756903747954671616>
+{delete:500ms}]
+
+$channelSendMessage[841388922772914196;<@756903747954671616>
+{delete:500ms}]
+`,
+executeOnStartup: true,
+channel: "842239194037354506",
+every: 2000,
+type: 'loop'
+})
+*/
