@@ -1,5 +1,3 @@
-const keepAlive = require('./server.js');
-
 const aoijs = require('aoi.js'); 
 const config = require('./config.js'); 
 const bot = new aoijs.Bot(config.Bot);
@@ -56,6 +54,3 @@ const files = fs.readdirSync('./events').filter(file => file.endsWith('js'))
 files.forEach( x => {
 	require(`./events/${x}`)(bot)
 });
-
-
-keepAlive()
